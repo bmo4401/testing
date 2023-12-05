@@ -1,4 +1,8 @@
-import MyLineChart from '@/app/MyLineChart';
+import dynamic from 'next/dynamic';
+
+const MyLineChart = dynamic(() => import('@/app/MyLineChart'), {
+  ssr: false, // Prevent server-side rendering for this dynamic import
+});
 
 export default function Home() {
   return (

@@ -20,7 +20,7 @@ export default function Home() {
       ></iframe>
       <Link
         href={'https://dev-vdc-dashboard.navercorp.com/workspaces/12'}
-        target="idFrame"
+        target="_blank"
       >
         Click
       </Link>
